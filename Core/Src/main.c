@@ -99,7 +99,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  // if (HAL_ADC_PollForConversion(&hadc1, HAL_MAX_DELAY) == HAL_OK) {
+	  
 	  	             // Read ADC value
 	  	             uint32_t adcValue = HAL_ADC_GetValue(&hadc1);
 
